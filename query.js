@@ -1,4 +1,4 @@
-function parseQuery(){
+export function parseQuery(){
     
     //allows us to index the query parameters of a call to our API endpoint
     const sp = new URLSearchParams(window.location.search);
