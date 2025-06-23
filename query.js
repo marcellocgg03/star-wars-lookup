@@ -8,7 +8,7 @@ function parseQuery(){
     return id;
 }
 
-async function querySWAPI(itemToQuery){
+export async function querySWAPI(itemToQuery){
 
     //get query param for  id from client's URL
     const id = parseFilmQuery()
